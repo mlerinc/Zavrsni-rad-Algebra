@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Seminarski rad</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<img class="logo-link" src="logo.png" alt="Asili">
+		<nav class="nav">
+			<a class="nav-link" href="./index.html" id="vrh">Početna</a>
+			<a class="nav-link" href="./products.html">Proizvodi i usluge</a>
+			<a class="nav-link" href="./catalog.html">Katalog</a>
+			<a class="nav-link" href="./price-list.html">Cjenik</a>
+			<a class="nav-link nav-link--active" href="./contact.html">Kontakt</a>
+		</nav>
+	</header>
+	<main>
+	<div class="container">
+	<div class="form-contact">
+		<form method="get" action="#" autocomplete="off" class="form">
+			<div class="form-field">
+				<label class="label" for="first_last_name">Ime i prezime: </label><br>
+				<input class="input" id="first_last_name" type="text" name="first_last_name" required class="form-control">
+			</div>	
+			<br><br>
+			<div class="form-field">
+				<label class="label" for="email">Email: </label><br>
+				<input class="input" id="email" type="text" name="email" placeholder="you@example.com" required class="form-control">
+			</div>	
+			<br><br>
+			<div class="form-field">
+				<label class="label" for="address">Adresa: </label><br>
+				<input class="input" id="address" type="text" name="address" required class="form-control">
+			</div>	
+			<br><br>
+			<div class="form-field">
+				<textarea class="textarea" name="poruka" rows="10" placeholder="Vaš upit" class="form-control"></textarea>
+			</div>	
+			<br><br>
+			<div class="form-field">
+				<label for="option_1"> 
+				<input class="checkbox" id="option_1" type="checkbox" name="option_1"class="form-control"> Pročitao/la sam i razumijem Pravila o zaštiti privatnosti i kolačićima</label>
+			</div>	
+			<br><br>
+			<div>
+				<button type="button" id="send" class="form-button-1">Pošalji</button>
+				<button type="button" id="cancel" class="form-button-2">Poništi</button>
+			</div>	
+		</form>
+	</div>
+	</div>	
+	</main>
+	<footer class="footer">
+		Seminarski rad za POU Algebra - Web dizajn
+	</footer>
+</div>	
+</body>
+</html>
